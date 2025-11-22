@@ -8,13 +8,14 @@ Der Hotel Dienst verrichtet auf unerklärliche weise seinen Dienst nicht mehr? M
 
 <img width="834" height="264" alt="image" src="https://github.com/user-attachments/assets/933c76e4-7b26-4e85-90ab-a583fcc2369c" />
 
-# NSSM - the Non-Sucking Service Manager herunterladen
+# Installation
+## NSSM - the Non-Sucking Service Manager herunterladen
 https://nssm.cc/release/nssm-2.24.zip 
 
-# Prüfung ob Dienst läuft (Powershell)
+## Prüfung ob Dienst läuft (Powershell)
 Get-Service HotelWatchdog
 
-# Deinstallation (Powershell)
+## Deinstallation (Powershell)
 & ".\nssm-2.24\win64\nssm.exe" remove HotelWatchdog confirm 
 
 # Log
