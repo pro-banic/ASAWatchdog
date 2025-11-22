@@ -19,3 +19,6 @@ Get-Service HotelWatchdog
 
 # Log
 G:\ASAjHotel\Logs\ServiceRestartLog.txt
+
+2025-11-22 14:43:28 - FEHLER: Dienst 'Hotel' lief nicht. Versuche Neustart...
+2025-11-22 14:43:28 - INFO: Dienst erfolgreich neu gestartet.
